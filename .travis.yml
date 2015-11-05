@@ -15,7 +15,7 @@ cache:
 #    - webapp/node_modules
 
 before_install:
-- curl https://install.meteor.com | /bin/sh
+- 'sudo curl https://install.meteor.com | /bin/sh'
 
 script:
-  - "./test.sh"
+  - "/bin/bash ./test.sh"
